@@ -68,7 +68,7 @@ private Connection getConnection() throws SQLException {
 <%
 if(name != null) {
 %>
-<font size="15" color="steelblue"><%=name %><%=id %>님 안녕하세요!!!!!!</font> <br>
+<font size="15" color="steelblue"><%=name %>(<%=id%>)님 안녕하세요!!!!!!</font> <br>
 <%
 } else { 
 %>
